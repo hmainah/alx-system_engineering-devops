@@ -1,4 +1,4 @@
 #!/bin/bash
-read -p "Insert word: " word
+read -p "insert word: "word
 
-echo $word | sed 's/A/Z/g; s/c/e/g' 
+echo $word | sed 's/A/Z/g; s/c/e/g'
